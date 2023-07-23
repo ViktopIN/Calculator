@@ -22,7 +22,6 @@
     [self viewSetup];
     
     self.view.backgroundColor = [UIColor redColor];
-    NSLog(@"huy");
 }
 
 - (void)hierarchySetup {
