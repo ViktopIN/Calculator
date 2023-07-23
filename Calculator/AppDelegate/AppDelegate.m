@@ -6,11 +6,11 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "MainViewController.h"
 
 @interface AppDelegate ()
 
-@property (strong, nonatomic) ViewController *viewController;
+@property (strong, nonatomic) MainViewController *viewController;
 
 @end
 
@@ -20,7 +20,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    self.viewController = [[ViewController alloc] init];
+    self.viewController = [[MainViewController alloc] init];
     
     self.window = [[UIWindow alloc] initWithFrame: UIScreen.mainScreen.bounds];
     self.window.rootViewController = self.viewController;

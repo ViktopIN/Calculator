@@ -9,13 +9,11 @@
 
 @interface KeyboardView()
 
-@property (nullable) UICollectionView *collectionView;
+@property (nonatomic) UICollectionView *collectionView;
 
 @end
 
 @implementation KeyboardView
-
-
 
 - (id) initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];

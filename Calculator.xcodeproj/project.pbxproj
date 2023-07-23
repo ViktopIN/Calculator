@@ -8,25 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		84A2E2F02A6D580D006EC977 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A2E2EF2A6D580D006EC977 /* AppDelegate.m */; };
-		84A2E2F62A6D580D006EC977 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A2E2F52A6D580D006EC977 /* ViewController.m */; };
+		84A2E2F62A6D580D006EC977 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A2E2F52A6D580D006EC977 /* MainViewController.m */; };
 		84A2E2FB2A6D580E006EC977 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A2E2FA2A6D580E006EC977 /* Assets.xcassets */; };
 		84A2E2FE2A6D580E006EC977 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A2E2FC2A6D580E006EC977 /* LaunchScreen.storyboard */; };
 		84A2E3012A6D580E006EC977 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A2E3002A6D580E006EC977 /* main.m */; };
 		84A2E3102A6D6951006EC977 /* KeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A2E30F2A6D6951006EC977 /* KeyboardView.m */; };
+		84A2E31C2A6D7172006EC977 /* KeyboardViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A2E31B2A6D7172006EC977 /* KeyboardViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84A2E2EB2A6D580D006EC977 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A2E2EE2A6D580D006EC977 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84A2E2EF2A6D580D006EC977 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		84A2E2F42A6D580D006EC977 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		84A2E2F52A6D580D006EC977 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84A2E2F42A6D580D006EC977 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		84A2E2F52A6D580D006EC977 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		84A2E2FA2A6D580E006EC977 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84A2E2FD2A6D580E006EC977 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84A2E2FF2A6D580E006EC977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84A2E3002A6D580E006EC977 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84A2E30F2A6D6951006EC977 /* KeyboardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardView.m; sourceTree = "<group>"; };
 		84A2E3112A6D695F006EC977 /* KeyboardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardView.h; sourceTree = "<group>"; };
+		84A2E31A2A6D7172006EC977 /* KeyboardViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardViewCell.h; sourceTree = "<group>"; };
+		84A2E31B2A6D7172006EC977 /* KeyboardViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,18 +62,60 @@
 		84A2E2ED2A6D580D006EC977 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				84A2E2EE2A6D580D006EC977 /* AppDelegate.h */,
-				84A2E2EF2A6D580D006EC977 /* AppDelegate.m */,
-				84A2E2F42A6D580D006EC977 /* ViewController.h */,
-				84A2E2F52A6D580D006EC977 /* ViewController.m */,
-				84A2E30F2A6D6951006EC977 /* KeyboardView.m */,
-				84A2E3112A6D695F006EC977 /* KeyboardView.h */,
-				84A2E2FA2A6D580E006EC977 /* Assets.xcassets */,
-				84A2E2FC2A6D580E006EC977 /* LaunchScreen.storyboard */,
-				84A2E2FF2A6D580E006EC977 /* Info.plist */,
-				84A2E3002A6D580E006EC977 /* main.m */,
+				84A2E3142A6D7060006EC977 /* AppDelegate */,
+				84A2E3122A6D7044006EC977 /* Resources */,
+				84A2E3162A6D70FC006EC977 /* Views */,
 			);
 			path = Calculator;
+			sourceTree = "<group>";
+		};
+		84A2E3122A6D7044006EC977 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84A2E2FF2A6D580E006EC977 /* Info.plist */,
+				84A2E2FA2A6D580E006EC977 /* Assets.xcassets */,
+				84A2E2FC2A6D580E006EC977 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		84A2E3142A6D7060006EC977 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				84A2E3002A6D580E006EC977 /* main.m */,
+				84A2E2EE2A6D580D006EC977 /* AppDelegate.h */,
+				84A2E2EF2A6D580D006EC977 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		84A2E3162A6D70FC006EC977 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84A2E3172A6D7110006EC977 /* KeyboardView */,
+				84A2E2F42A6D580D006EC977 /* MainViewController.h */,
+				84A2E2F52A6D580D006EC977 /* MainViewController.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84A2E3172A6D7110006EC977 /* KeyboardView */ = {
+			isa = PBXGroup;
+			children = (
+				84A2E3182A6D7119006EC977 /* Cell */,
+				84A2E30F2A6D6951006EC977 /* KeyboardView.m */,
+				84A2E3112A6D695F006EC977 /* KeyboardView.h */,
+			);
+			path = KeyboardView;
+			sourceTree = "<group>";
+		};
+		84A2E3182A6D7119006EC977 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				84A2E31A2A6D7172006EC977 /* KeyboardViewCell.h */,
+				84A2E31B2A6D7172006EC977 /* KeyboardViewCell.m */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +187,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84A2E2F62A6D580D006EC977 /* ViewController.m in Sources */,
+				84A2E2F62A6D580D006EC977 /* MainViewController.m in Sources */,
 				84A2E3102A6D6951006EC977 /* KeyboardView.m in Sources */,
+				84A2E31C2A6D7172006EC977 /* KeyboardViewCell.m in Sources */,
 				84A2E2F02A6D580D006EC977 /* AppDelegate.m in Sources */,
 				84A2E3012A6D580E006EC977 /* main.m in Sources */,
 			);
@@ -282,7 +328,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CQP8YYBTMF;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Calculator/Info.plist;
+				INFOPLIST_FILE = Calculator/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -308,7 +354,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CQP8YYBTMF;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Calculator/Info.plist;
+				INFOPLIST_FILE = Calculator/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
