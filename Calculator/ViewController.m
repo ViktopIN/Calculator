@@ -13,10 +13,28 @@
 
 @implementation ViewController
 
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self hierarchySetup];
+    [self layoutSetup];
+    [self viewSetup];
+    
+    self.view.backgroundColor = [UIColor redColor];
+    NSLog(@"huy");
 }
 
+- (void)hierarchySetup {
+    
+}
+
+- (void)layoutSetup {
+    
+}
+
+- (void)viewSetup {
+    
+}
 
 @end
