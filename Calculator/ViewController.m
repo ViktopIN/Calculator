@@ -20,8 +20,6 @@
     [self hierarchySetup];
     [self layoutSetup];
     [self viewSetup];
-    
-    self.view.backgroundColor = [UIColor redColor];
 }
 
 - (void)hierarchySetup {
